@@ -1,0 +1,55 @@
+
+.reflex-container{
+    z-index: 1;
+  }
+
+.reflex-container > .reflex-splitter {
+  z-index: 0 !important;
+}
+
+.horizontal-splitter {
+    height: 7px !important;
+    background-color: #DFE0E5;
+    border-color: #435b8c !important;
+    position: relative;
+  }
+
+  .horizontal-splitter:hover {
+    background: url('../images/HoveredH.png') #f7c05b repeat-x top left;
+  }
+  
+  .horizontal-splitter-thumb{
+    width: 19px;
+    height: 1px;
+    position: absolute;
+    background-color: #435b8c;
+    top: 2px;
+    left: 49%;
+  }
+  
+  .vertical-splitter {
+    width: 7px !important;
+    background-color: #DFE0E5;
+    border-color: #435b8c !important;
+    position: relative;
+  }
+  
+  .vertical-splitter:hover {
+    background: url('../images/HoveredV.png') #f7c05b repeat-y top left;
+  }
+  
+  .vertical-splitter-thumb{
+    height: 19px;
+    width: 1px;
+    position: absolute;
+    background-color: #435b8c;
+    top: 49%;
+    left: 2px;
+  }
+  
+  .horizontal-splitter.disabled:hover, .vertical-splitter.disabled:hover {
+    background: #DFE0E5;
+    background-color: #DFE0E5 !important;
+    cursor: default;
+    transition: none !important;
+  }

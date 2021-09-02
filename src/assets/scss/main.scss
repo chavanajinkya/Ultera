@@ -1,0 +1,26 @@
+@import "./splitter.scss";
+@import "~@blueprintjs/core/lib/scss/variables";
+@import "./core";
+/*
+ * Copyright 2017 Palantir Technologies, Inc. All rights reserved.
+ */
+@import "~@blueprintjs/core/src/blueprint.scss";
+@import "~@blueprintjs/popover2/src/blueprint-popover2.scss";
+@import "@blueprintjs/core/lib/css/blueprint.css";
+
+#root{
+  height:100%;
+  width:100%;
+}
+
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif !important;
+  margin: 0;
+  height: 100%;
+}
+
+html{
+  height: 100%;
+}
+
+

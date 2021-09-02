@@ -1,0 +1,271 @@
+
+$pt-heading-color: #0673b8;
+$pt-icon-color-hover: $pt-text-color;
+$pt-elevation-shadow-0: none;
+$headings: (
+        "h1": (2.8em, 40px),
+        "h2": (28px, 32px),
+        "h3": (22px, 25px),
+        "h4": (18px, 21px),
+        "h5": (1.2em, 19px),
+        "h6": (14px, 16px)
+);
+
+.bp3-button{
+  color: #ffffff !important;
+  min-height: 24px !important;
+  border-radius: 0 !important;
+  font-size: 0.7rem !important;
+  border: 1px solid transparent !important;
+  height: 24px;
+  padding: 0px 10px !important;
+  &:not(.bp3-disabled):hover {
+    background: url("../../images/HoveredH.png") #f7c053 repeat-x top left !important;
+    color: #000000 !important;
+    border: 1px solid #f19235 !important;
+    box-shadow: none !important;
+  }
+  &:disabled{
+    opacity: 0.5;
+  }
+  //&:focus{
+  //  outline:0;
+  //}
+}
+
+.bp3-input-action {
+  height: 100%;
+}
+
+.bp3-dialog{
+  border: 1px solid #435b8c !important;
+  border-radius:0 !important;
+  padding: 0 !important;
+  margin: 0px !important;
+
+  .bp3-dialog-header {
+    border: 1px solid !important;
+    border-radius: 0 !important;
+    border-color: #ffffff #ffffff #435b8c !important;
+    background: url('../../images/Dialog.gif') #ffffff repeat-x 0 -114px !important;
+    min-height: 15px !important;
+    padding: 0 5px !important;
+    cursor: move;
+    z-index: 0;
+  }
+
+  .bp3-dialog-close-button{
+    background-color: transparent !important;
+    background-image: url('../../images/Dialog.gif') !important;
+    background-repeat: no-repeat !important;
+    background-position: 5px -141px !important;
+    border: none !important;
+
+    &:hover{
+      background-color: transparent !important;
+      background-image: url('../../images/Dialog.gif') !important;
+      background-repeat: no-repeat !important;
+      background-position: 5px -141px !important;
+      border: none !important;
+      cursor: pointer;
+    }
+  }
+
+  .bp3-icon-small-cross{
+    display: none;
+  }
+
+  .bp3-heading{
+    padding: 5px 7px 4px 7px !important;
+    font-size: 11px !important;
+    color: #000000 !important;
+  }
+}
+
+.bp3-popover-content{
+  background-color: #ffffff !important;
+  color: #131313  !important;
+  border: 1px solid #b5bcc7 !important;
+}
+
+.bp3-popover-arrow-fill{
+  fill: #ffffff !important;
+}
+
+.bp3-popover-wrapper{
+  margin-top: 0px !important;
+  width: inherit !important;
+  height: inherit !important;
+}
+
+.bp3-input-group{
+  width: inherit !important;
+  height: inherit !important;
+}
+
+.bp3-popover-target{
+  margin-top: 0px !important;
+  width: inherit !important;
+  height: inherit !important;
+}
+
+.bp3-input{
+  line-height: unset !important;
+  border-radius:0 !important;
+  box-shadow: none !important;
+  margin-top: 0px !important;
+  height: 100% !important;
+  font-size: 12px !important;
+  padding-left: 5px !important;
+
+  &:disabled{
+    background-color: #efefef !important;
+    background-image: none !important;
+    color: #838281 !important;
+  }
+}
+
+input[type=number]::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+}
+
+.reflex-container > .reflex-element{
+  height: auto !important;
+}
+
+.bp3-collapse{
+  overflow-y: hidden !important;
+
+  .bp3-collapse-body{
+    height:100% !important;
+  }
+}
+
+.bp3-overlay-inline .bp3-overlay-content, .bp3-overlay-scroll-container .bp3-overlay-content {
+  outline: none;
+  outline-offset: 0;
+}
+.bp3-transition-container {
+  z-index: 1000 !important;
+}
+
+.disable-events * {
+  pointer-events: none;
+}
+
+.bp3-menu{
+  padding: 0px !important;
+  min-width: 10px !important;
+  overflow: auto !important;
+  max-height: 315px !important;
+}
+.bp3-file-upload-input{
+  height: 26px !important;
+  display: flex;
+  align-items: center;
+}
+.bp3-control.bp3-checkbox .bp3-control-indicator{
+  border-radius: 0 !important;
+  border: 1px solid #b5bcc7;
+  background-color: #f7fcff;
+}
+.bp3-control-indicator:focus{
+  outline: none !important;
+  outline-offset: 0 !important;
+}
+.bp3-control input:focus{
+  outline: none !important;
+  outline-offset: 0 !important;
+}
+.bp3-control input:checked ~ .bp3-control-indicator {
+  border: 0;
+  box-shadow: none !important;
+}
+.bp3-control:focus{
+  border: 0;
+  box-shadow: none !important;
+}
+
+input[type="checkbox" i]:focus {
+  outline: none !important;
+  outline-offset: 0 !important;
+}
+.DayPicker-Body{
+  background-color: white !important;
+}
+
+
+.bp3-datepicker-year-select{
+  border: solid 1px #b5bcc7 !important;
+  border-radius: 3px !important;
+  margin-right: 10px !important;
+  box-shadow: none !important;
+  min-width: 70px !important;
+  &:hover{
+    background: url("../../images/HoveredH.png") #f7c053 repeat-x top left !important;
+    color: #000000 !important;
+    border: 1px solid #f19235 !important;
+    box-shadow: none !important;
+  }
+}
+.bp3-datepicker-month-select{
+  border: solid 1px #b5bcc7 !important;
+  border-radius: 3px !important;
+  box-shadow: none !important;
+  &:hover{
+    background: url("../../images/HoveredH.png") #f7c053 repeat-x top left !important;
+    color: #000000 !important;
+    border: 1px solid #f19235 !important;
+
+  }
+}
+.bp3-datepicker-day-wrapper{
+  border-radius: 0px !important;
+}
+
+.bp3-control input:focus ~ .bp3-control-indicator{
+  outline: none !important;
+  outline-offset: 0px !important;
+}
+
+.bp3-button-group .bp3-button {
+  z-index: 0 !important;
+}
+
+.bp3-menu-item.bp3-intent-primary{
+  background: url("../../images/HoveredH.png") #f7c053 repeat-x top left !important;
+  color: #000000 !important;
+  border: 1px solid #f19235 !important;
+  padding: 0px 5px !important;
+}
+
+.bp3-menu-item{
+  padding: 0px 5px !important;
+}
+
+.bp3-popover2-transition-container.bp3-overlay-content.bp3-popover2-enter-done{
+  z-index: 999;
+}
+.bp3-popover2-transition-container.bp3-overlay-content.bp3-popover2-enter-done:focus{
+  outline: none !important;
+  outline-offset: 0px !important;
+}
+.bp3-popover2 .bp3-popover2-arrow::before{
+  box-shadow: none !important;
+}
+.bp3-control-indicator{
+  margin-top: 1px !important;
+  margin-bottom: 1px !important;
+}
+.bp3-popover2-dismiss{
+  padding: 5px 15px !important;
+  background: url('../../../assets/images/UnselectedH.png') #7283a6 repeat-x top left !important;
+  border-color: #8d9fc4 #435b8c #435b8c #8d9fc4 !important;
+  color: #ffffff !important;
+  border-radius: 3px !important;
+  font-weight: bold !important;
+}
+
+.bp3-datepicker-month-select{
+  width: max-content !important;
+}
