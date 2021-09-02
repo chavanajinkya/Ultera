@@ -1,0 +1,207 @@
+.subHeader{
+  display: flex;
+  background: url("../../../assets/images/Backgrounds.png") #bbc2ce repeat-x 0px -422px;
+  border: 1px solid #435b8c;
+  margin: -10px;
+  margin-bottom: 0;
+  padding:5px;
+  align-items: center;
+  justify-content: space-between;
+  cursor: default;
+}
+.headerLabelBox{
+  display: flex;
+  align-items: center;
+}
+.headerText{
+  padding-left: 5px;
+  font-weight: 600;
+}
+.autoSelectBox{
+  display: flex;
+  flex-direction: column;
+}
+.requiredText {
+  color:#9f0000;
+  font-weight: 600;
+}
+.boldText {
+  padding-left: 5px;
+  font-weight: 600;
+  width: 25%;
+}
+.autoSelectDiv {
+  display: flex;
+  flex: 1;
+  padding-left: 10px;
+}
+
+.browseBtn{
+  border: 1px solid !important;
+  background: url('../../../assets/images/UnselectedH.png') #7283a6 repeat-x top left !important;
+  border-color: #8d9fc4 #435b8c #435b8c #8d9fc4 !important;
+  color: #ffffff;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  border-radius: 4px !important;
+  width: 100px;
+  margin-left: 20px;
+}
+.contentDiv{
+  height: 250px;
+  padding-top: 25px;
+}
+.targetedBox{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.textAreaStyle{
+  border: 1px solid #b5bcc7;
+  height: 70px !important;
+  width: 335px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.textAreaStyle:hover{
+  background-color: #e9f4fe;
+  border-color: #769dc0;
+}
+.targetText {
+  padding-left: 5px;
+  font-weight: 600;
+  width: 25%;
+}
+.envInputStyle{
+  border: 1px solid #b5bcc7;
+}
+.envInputStyle:hover{
+  background-color: #e9f4fe;
+  border-color: #769dc0;
+}
+.fileInputStyle{
+  height: 24px !important;
+  width: 335px;
+  border: 1px solid #d3d3d3;
+  background-color: #efefef;
+  background-image: none;
+  color: #838281;
+}
+.bulletPoint{
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  background-color: #131313;
+  margin-right: 10px;
+}
+.exceptionContent{
+  display: flex;
+  align-items: center;
+}
+.buttonBrowse{
+  color: #ffffff;
+  background: url("../../../assets/images/UnselectedH.png") #7283a6 repeat-x top left !important;
+  border: 1px solid rgb(67, 91, 140);
+  font-weight: 600;
+  margin-left: 10px;
+  border-radius: 3px !important;
+  height: inherit;
+  width: 100px;
+  cursor: default;
+}
+.buttonBrowse:focus{
+  border: 1px dashed black !important;
+}
+.loadingGifStyle {
+  height: 16px;
+  width: 16px;
+  background-image: url("../../../assets/images/Loading.gif")
+}
+
+.warningMsg{
+  background-color: #f3f3f3;
+  border: 1px dashed #959595;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.warningLicenseMsg{
+  background-color: #f3f3f3;
+  border: 1px dashed #959595;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.warningIcon{
+  overflow: hidden;
+}
+.promoteDiv{
+  height: 175px;
+  padding-top: 25px;
+}
+.importLicenseDiv{
+  height: 210px;
+  padding-top: 25px;
+}
+.errorIcon{
+  background-color: #d46464;
+  background-image: url('./../../../assets/images/error.png');
+  background-position: top center;
+  border: solid #d46464 0;
+  border-left-width: 1px;
+  margin-left: -12px;
+  height: inherit;
+}
+.fileParent{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background: none #e6e9ec;
+  padding: 3px;
+  align-items: center;
+  border: 1px solid #435b8c;
+}
+.boldTextFile{
+  padding-left: 5px;
+  font-weight: 600;
+  display: flex;
+}
+.requiredTextFile{
+  color:#9f0000;
+  font-weight: 600;
+  margin-right: 5px;
+}
+.importFileButton{
+  color: #000000 !important;
+  background-color: transparent !important;
+  height: inherit;
+  cursor: pointer;
+  border: 1px solid transparent !important;
+  box-shadow: none !important;
+}
+.iconParent{
+  display: inline-flex;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.autoSelectDivImport {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 65px !important;
+  border: 1px solid #809db8;
+}
+.fileImportInputStyle{
+  background-color: #ffffff;
+  color: #838281;
+  width: 100%;
+  border: none;
+  height: 40px;
+}

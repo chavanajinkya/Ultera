@@ -1,0 +1,219 @@
+.errContentStyle{
+  color: #838281;
+  font-size: 14px;
+}
+.finishContentStyle{
+  font-size: 14px;
+}
+.unknownStateStyle{
+  font-weight: bold;
+  font-style: italic;
+}
+.subHeader{
+  display: flex;
+  background: url("../../../assets/images/Backgrounds.png") #bbc2ce repeat-x 0px -422px;
+  border: 1px solid #435b8c;
+  margin: -10px;
+  margin-bottom: 0;
+  padding:5px;
+  align-items: center;
+  justify-content: space-between;
+  cursor: default;
+}
+.headerLabelBox{
+  display: flex;
+  align-items: center;
+}
+.headerText{
+  padding-left: 5px;
+  font-weight: 600;
+}
+.loadingGifStyle {
+  height: 16px;
+  width: 16px;
+  background-image: url("../../../assets/images/Loading.gif")
+}
+.contentDiv{
+  height: calc(100vh - 400px);
+  padding-top: 5px;
+}
+.tableViewParent{
+  display: flex;
+  flex-direction: column;
+}
+.tableHeaderView{
+  background: url("../../../assets/images/Backgrounds.png") #e4e6e9 repeat-x 0px -496px;
+  font-weight: bold;
+  padding: 3px 5px;
+  border: 1px solid #435b8c;
+  border-left-color: #ffffff;
+}
+.tableHeaderView:hover{
+  background: url("../../../assets/images/HoveredH.png") #f7c053 repeat-x top left !important;
+  box-shadow: none !important;
+}
+.tableContentView{
+  border: 1px solid #435b8c;
+  border-left-color: #ffffff;
+  border-top-width: 0px;
+  padding: 5px;
+}
+.tableContentView:hover{
+  background: url("../../../assets/images/HoveredH.png") #f7c053 repeat-x top left !important;
+  box-shadow: none !important;
+}
+.importContentDiv{
+  height: inherit;
+  overflow: hidden;
+}
+.promoteContentDiv{
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #435b8c;
+}
+.importFirstBox{
+  overflow-y: auto;
+  border: 1px solid #435b8c;
+  background-color: #fff;
+  padding: 0px 5px 10px
+}
+.importSecondBox{
+  border: 1px solid #435b8c;
+  background-color: #fff;
+  padding: 10px 0px;
+  overflow: auto;
+  height: 40%;
+  width: fit-content;
+}
+.promoteFirstDiv{
+  background-color: #fff;
+  padding: 0px 5px 10px;
+  height: 100%;
+  overflow-x: hidden;
+}
+.promoteSecondDiv{
+  background-color: #fff;
+  height: 100%;
+  overflow-x: hidden;
+}
+.targetedBox{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.autoSelectDiv {
+  display: flex;
+  flex: 1;
+  padding-left: 10px;
+}
+.targetText {
+  padding-left: 5px;
+  font-weight: 600;
+  width: 200px;
+}
+.envInputStyle{
+  border: 1px solid #b5bcc7;
+}
+.envInputStyle:hover{
+  background-color: #e9f4fe;
+  border-color: #769dc0;
+}
+.textAreaStyle{
+  border: 1px solid #b5bcc7;
+  height: 65px !important;
+  width: 250px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.textAreaStyle:hover{
+  background-color: #e9f4fe;
+  border-color: #769dc0;
+}
+.optionStyle{
+  border: 1px solid rgb(118, 157, 192);
+  margin: 10px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.optionsText{
+  font-weight: bold;
+  color: #131313;
+  margin-top: -9px;
+  margin-left: 10px;
+  width: fit-content;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding: 0px 5px;
+}
+.parentOptions{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.secondSubHeader{
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  background: url("../../../assets/images/Backgrounds.png") #bbc2ce repeat-x 0px -422px;
+  border: 1px solid #435b8c;
+  align-items: center;
+  height: 30px;
+  justify-content: space-between;
+  cursor: default;
+}
+.buttonIcon{
+  color: #000000 !important
+}
+.parentDetailsDiv{
+  height: 400px
+}
+.requiredText{
+  display: inline;
+  color: #9f0000;
+  font-weight: bold;
+  margin-right: 5px;
+}
+.mappingSubHeader{
+  margin: 0px -10px;
+  padding: 8px;
+  display: flex;
+  background: url("../../../assets/images/Backgrounds.png") #bbc2ce repeat-x 0px -422px;
+  border: 1px solid #435b8c;
+  align-items: center;
+  justify-content: space-between;
+  cursor: default;
+}
+.mappingContentDiv{
+  margin: 0px -4px;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #435b8c;
+}
+.title1Style{
+  font-weight: bold;
+  width: 32%;
+}
+.title2Style{
+  font-weight: bold;
+}
+.sourceHeader{
+  display: flex;
+  height: 30px;
+  border-bottom: 1px solid rgb(67, 91, 140);
+  margin-bottom: 10px;
+}
+.secondMapping{
+  display: flex;
+}
+.sourceMapStyle{
+  font-weight: bold;
+  width: 30%;
+  height: 24px;
+  margin-left: 5px;
+}
+.autoSelectSecondDiv{
+  width: 32%;
+}

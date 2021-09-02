@@ -1,0 +1,97 @@
+.dashboard {
+    background-color: #C5CEDA;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.divider{
+    border-bottom: 2px solid #435b8c;
+    border-right: 2px solid #8d9fc4;
+    margin: 0px;
+}
+.header{
+    border: 1px solid;
+    background: url('../../../assets/images/UnselectedH.png') #7283a6 repeat-x top left;
+    border-color: #8d9fc4 #435b8c #435b8c #8d9fc4;
+    height: 26px
+}
+.menu {
+    min-width: 95px;
+    padding: 0;
+
+    :hover {
+        border-color: #f19235;
+        background: url('../../../assets/images/HoveredH.png') #f7c05b repeat-x top left;
+        color: #000000;
+    }
+}
+.subMenu{
+    padding: 2px;
+}
+.loadingGifStyle {
+    height: 16px;
+    width: 16px;
+    background-image: url("../../../assets/images/Loading.gif")
+}
+.headerLabelBox{
+    display: flex;
+    align-items: center;
+}
+
+.autoSelectBox{
+    display: flex;
+    align-items: center;
+}
+
+.headerText{
+    padding-left: 5px;
+    font-weight: 600;
+}
+
+.requiredText {
+    color:#9f0000;
+    font-weight: 600;
+}
+
+.boldText {
+    padding-left: 5px;
+    font-weight: 600;
+}
+
+.autoSelectDiv {
+    display: flex;
+    flex: 1;
+    padding-left: 10px;
+}
+.subHeader{
+    display: flex;
+    background: url("../../../assets/images/Backgrounds.png") #bbc2ce repeat-x 0px -422px;
+    border: 1px solid #435b8c;
+    margin: -10px;
+    margin-bottom: 0;
+    padding:5px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: default;
+}
+.ulteraHome{
+    display:flex;
+    height:100%;
+    background-color:white;
+    justify-content:center;
+    align-items:center
+}
+
+.configMsgTextStyle{
+font-weight:200;
+font-size: 1.3em
+}
+.test{
+    background-color: #ffffff;
+    border: 1px solid #435b8c;
+    z-index: 999;
+    width: 650px;
+    height: 250px;
+    border-radius: 10px;
+}

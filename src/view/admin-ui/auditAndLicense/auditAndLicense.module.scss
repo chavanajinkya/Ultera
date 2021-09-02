@@ -1,0 +1,41 @@
+.licenseParent{
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.optionStyle{
+  border: 1px solid #b5bcc7;
+  height: 65px;
+  margin: 15px 10px 10px;
+  display: flex;
+  flex-direction: column;
+}
+.optionsText{
+  font-weight: bold;
+  color: #f19235;
+  font-size: 14px !important;
+  margin-top: -9px;
+  margin-left: 10px;
+  width: fit-content;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding: 0px 4px;
+}
+.parentOptions{
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+.displayInLineStyle{
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  align-items: center;
+}
+.messageStyle{
+  font-size: 12px;
+  margin-left: 10px;
+}

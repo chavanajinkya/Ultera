@@ -1,0 +1,128 @@
+.header {
+  background: none #c6ceda;
+  border: 1px solid #435b8c;
+  border-top-color: #fff;
+  display: flex;
+  width: 100%;
+  height: 30px;
+  align-items: center;
+  overflow: hidden;
+  justify-content: space-between;
+}
+.headerContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 4px;
+  height: 28px;
+}
+.headerContainerStyle {
+  display: flex;
+  padding-left: 10px;
+}
+.headerIcon {
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+}
+.requiredText{
+  display: inline;
+  color: #9f0000;
+  font-weight: bold;
+  margin-right: 5px;
+  padding-right:10px
+}
+.buttonIcon{
+  color: #000000 !important
+}
+
+.resetTextStyle{
+  padding:0px 5px;
+  font-weight:bold
+}
+
+.validationPanelHeader {
+  padding: 0 10px;
+  position:absolute;
+  z-index:0
+}
+.validationPanelHeaderText {
+  background-color: #ffffff;
+  margin:0;
+  font-weight: bold;
+}
+.validationPanelInfo {
+  border: 1px solid #838281;
+  padding-top: 15px
+}
+.subHeader{
+  display: flex;
+  background: url("../../../assets/images/Backgrounds.png") #bbc2ce repeat-x 0px -422px;
+  border: 1px solid #435b8c;
+  margin: -10px;
+  margin-bottom: 0;
+  padding:5px;
+  align-items: center;
+  justify-content: space-between;
+  cursor: default;
+}
+.headerLabelBox{
+  display: flex;
+  align-items: center;
+}
+.headerText{
+  padding-left: 5px;
+  font-weight: 600;
+}
+
+.requiredTextReassignPopup {
+  color:#9f0000;
+  font-weight: 600;
+}
+
+.contentPopupDiv{
+  height: 150px;
+  padding-top: 10px;
+}
+.autoSelectBox{
+  display: flex;
+  align-items: center;
+  width: 80%;
+  padding-top: 10px;
+}
+.boldText {
+  padding-left: 5px;
+  font-weight: 600;
+  width: 40%;
+}
+.autoSelectDiv {
+  display: flex;
+  flex: 1;
+  padding-left: 10px;
+}
+.loadingGifStyle {
+  height: 16px;
+  width: 16px;
+  background-image: url("../../../assets/images/Loading.gif")
+}
+
+.infoContainer{
+  padding-top:10px
+}
+.infoSubContainer{
+  padding:10px;
+  border:1px solid #838281
+}
+.infoBoxTextStyle{
+  padding-top:5px;
+  display:table-cell;
+  flex-direction:row
+}
+.reassignTextStyle{
+  font-weight:bold;
+  padding-right:2px;
+  padding-left:2px
+}
+.routeContentDiv{
+  height: 250px;
+}
