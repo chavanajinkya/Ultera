@@ -1,0 +1,42 @@
+
+.inputBoxContainer{
+  border-radius:0 !important;
+  width: var(--width, 100%) !important;
+  height: var(--height, 26px) !important;
+}
+.inputBox{
+  border: 1px solid #838281 !important;
+}
+.loginInputBox{
+  border: 1px solid #b5bcc7 !important;
+}
+.errorInputBox{
+  border: 1px solid #9f0000 !important;
+}
+
+.disabledInputBox{
+  background-color: #efefef !important;
+  background-image: none  !important;
+  color: #000000 !important;
+  width: var(--width, 252px) !important;
+  height: var(--height, 26px) !important;
+}
+
+.errorIcon{
+  background-color: #d46464;
+  background-image: url('./../../assets/images/error.png');
+  background-position: top center;
+  border: solid #d46464 0;
+  border-left-width: 1px;
+  width: 9px;
+  height: var(--height, 24px);
+}
+.iconStyle{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
+.popoverStyle{
+  width: 100%;
+}

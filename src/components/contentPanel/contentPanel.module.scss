@@ -1,0 +1,37 @@
+    .contentPanel {
+        width: 100%;
+        display: flex;
+        flex: 1;
+        padding: 0;
+        flex-direction: Column;
+        height: 100%;
+
+    .header {
+        background: url("http://10.0.129.33:9081/Ultera/theme/ipd/prod/nls/en-us/images/Backgrounds.png")#bbc2ce repeat-x 0px -422px !important;
+        border: 1px solid #435b8c;
+        height: 30px;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .headerContent {
+        display: flex;
+        align-items: center;
+    }
+    .headerIcon{
+      display: flex;
+      align-items: center;
+      margin-right: 8px;
+    }
+    .body {
+        display: flex;
+        flex: 1;
+    }
+
+    .footer {
+        background: url("http://10.0.129.33:9081/Ultera/theme/ipd/prod/nls/en-us/images/Backgrounds.png")#bbc2ce repeat-x 0px -422px !important;
+        height: 30px;
+    }
+}

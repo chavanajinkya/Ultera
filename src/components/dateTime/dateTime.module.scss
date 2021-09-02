@@ -1,0 +1,85 @@
+.dateContainer{
+  border: solid 1px #cfe5fa;
+  background-color: #cfe5fa;
+  background-image: url('../../assets/images/calendarContainerImages.png');
+  background-position: 0 -448px;
+  background-repeat: repeat-x;
+}
+.datePicker{
+  border: solid 1px #cfe5fa;
+  background-color: #cfe5fa;
+  background-image: url('../../assets/images/calendarContainerImages.png');
+  background-position: 0 -448px;
+  background-repeat: repeat-x;
+  text-align: center;
+  padding: 6px 5px 3px 5px;
+  -moz-border-radius: 4px;
+  border-radius: 0px;
+}
+.arrowIconBox{
+  display: flex;
+  width:100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #efefef;
+  border-left:1px solid #b5bcc7 ;
+  border-right: 1px solid #b5bcc7;
+}
+.errorWrapper{
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.errorIcon{
+  background-color: #d46464;
+  background-image: url('./../../assets/images/error.png');
+  background-position: top center;
+  border: solid #d46464 0;
+  border-left-width: 1px;
+  width: 9px;
+  height: inherit;
+}
+
+.arrowBox{
+  display: flex;
+  flex:1;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid #b5bcc7
+}
+
+.selectOption{
+  padding:5px;
+  cursor: default;
+  width: inherit;
+  border: 1px solid transparent;
+}
+.selectOption:hover{
+  background: url('../../assets/images/HoveredH.png') #f7c05b repeat-x top left;
+  color: #000000;
+  border: 1px solid #f19235 !important;
+  padding: 5px;
+}
+.selectOption:focus{
+  z-index: 1000;
+}
+.custom-class {
+  max-height: 100px;
+  overflow-y: auto;
+}
+.tooltipTarget{
+  display: flex !important;
+}
+.tooltipStyle{
+  width: 100% !important;
+}
+.tooltip{
+  width: 100%;
+}
+.errorInputBox{
+  border-radius:0 !important;
+  border: 1px solid #9f0000 !important;
+}

@@ -1,0 +1,65 @@
+.overlay{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 12;
+  cursor: default;
+}
+.dialog{
+  width:20%;
+  min-width: 300px;
+
+  .dialogContent{
+    background-color:#ffffff;
+    min-height:80px;
+    width:100%;
+    padding:10px
+  }
+
+  .dialogFooter{
+    border: 1px solid;
+    border-color: #435b8c #ffffff #ffffff #ffffff;
+    background-image: url('../../assets/images/Backgrounds.png');
+    background-color: #bbc2ce;
+    background-repeat: repeat-x;
+    background-position: 0px -422px;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .footerButtonContainer{
+    height:30px;
+    padding: 2px 10px;
+    display: flex;
+  }
+  .portalStyle {
+    z-index: 999;
+  }
+
+  .footerButton{
+    padding: 5px !important;
+    background: url('../../assets/images/UnselectedH.png') #7283a6 repeat-x top left !important;
+    border-color: #8d9fc4 #435b8c #435b8c #8d9fc4 !important;
+    color: #ffffff !important;
+    border-radius: 3px !important;
+    font-weight: bold !important;
+  }
+  .footerYesButton{
+    padding: 5px !important;
+    background: url('../../assets/images/UnselectedH.png') #7283a6 repeat-x top left !important;
+    border-color: #8d9fc4 #435b8c #435b8c #8d9fc4 !important;
+    color: #ffffff !important;
+    border-radius: 3px !important;
+    font-weight: bold !important;
+  }
+  .closeBtn{
+    position: absolute;
+    right: 7px;
+    top: 2px;
+  }
+}

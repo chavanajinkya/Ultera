@@ -1,0 +1,117 @@
+.contentBox{
+  display:flex;
+  padding:3px;
+  padding-left:10px;
+  border:1px solid #b5bcc7;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%
+}
+
+.suggestBox{
+  display:flex;
+  border:1px solid #d3d3d3;
+  justify-content: space-between;
+  align-items: center;
+  flex:1;
+  width: 100%;
+  height: var(--height, auto);
+  background-color: #efefef;
+  background-image: none;
+  color: #838281;
+  z-index: 99999999;
+}
+
+.suggestBox:hover{
+  background-color: #e9f4fe;
+  border-color: #769dc0;
+  background-image: url("../../assets/images/textBox_back.png");
+}
+
+.selectOption{
+  padding:6px;
+  cursor: default;
+  width: inherit;
+  height: 20px  !important;
+}
+.selectOption:hover{
+  font-weight: bold !important;
+  background-color: #ffffff;
+}
+.selectOption:focus{
+  z-index: 1000;
+}
+.tooltip{
+  width: 100%;
+}
+
+.loadingGifStyle {
+  height: 16px;
+  width: 16px;
+  background-image: url("../../assets/images/Loading.gif")
+}
+.arrowButton {
+  //background-color: #7dbefa;
+  background-position: 0 -177px;
+  padding: 1px;
+  background-color: #efefef;
+  background-image: url('../../assets/images/commonFormArrows.png');
+  background-repeat: repeat-x;
+}
+
+.arrowBox{
+  display: flex;
+  flex:1;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.arrowBoxDisabled{
+  display: flex;
+  flex:1;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  cursor: not-allowed;
+}
+
+.arrowIconBox{
+  display: flex;
+  width:100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #efefef;
+  border-left:1px solid #b5bcc7 ;
+}
+.errorIcon{
+  background-color: #d46464;
+  background-image: url('./../../assets/images/error.png');
+  background-position: top center;
+  border: solid #d46464 0;
+  border-left-width: 1px;
+  width: 9px;
+  height: inherit;
+}
+
+.errorInputBox{
+  border-radius:0 !important;
+  border: 1px solid #9f0000 !important;
+}
+.errorWrapper{
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.tooltipTarget{
+  display: flex !important;
+}
+.centeredInput {
+  input {
+    text-align: center;
+  }
+}
+.tooltipStyle{
+  width: 150px !important;
+}
