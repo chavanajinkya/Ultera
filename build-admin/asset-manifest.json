@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.js": "/UlteraAdmin/static/js/main.0431fe26.chunk.js",
+    "main.js.map": "/UlteraAdmin/static/js/main.0431fe26.chunk.js.map",
+    "runtime-main.js": "/UlteraAdmin/static/js/runtime-main.d52b3424.js",
+    "runtime-main.js.map": "/UlteraAdmin/static/js/runtime-main.d52b3424.js.map",
+    "static/css/2.c0f49c98.chunk.css": "/UlteraAdmin/static/css/2.c0f49c98.chunk.css",
+    "static/js/2.3f2a33ed.chunk.js": "/UlteraAdmin/static/js/2.3f2a33ed.chunk.js",
+    "static/js/2.3f2a33ed.chunk.js.map": "/UlteraAdmin/static/js/2.3f2a33ed.chunk.js.map",
+    "static/css/3.e4cb6236.chunk.css": "/UlteraAdmin/static/css/3.e4cb6236.chunk.css",
+    "static/js/3.fd78b7ef.chunk.js": "/UlteraAdmin/static/js/3.fd78b7ef.chunk.js",
+    "static/js/3.fd78b7ef.chunk.js.map": "/UlteraAdmin/static/js/3.fd78b7ef.chunk.js.map",
+    "static/js/4.e077f005.chunk.js": "/UlteraAdmin/static/js/4.e077f005.chunk.js",
+    "static/js/4.e077f005.chunk.js.map": "/UlteraAdmin/static/js/4.e077f005.chunk.js.map",
+    "static/js/5.b5e950b9.chunk.js": "/UlteraAdmin/static/js/5.b5e950b9.chunk.js",
+    "static/js/5.b5e950b9.chunk.js.map": "/UlteraAdmin/static/js/5.b5e950b9.chunk.js.map",
+    "index.html": "/UlteraAdmin/index.html",
+    "static/css/2.c0f49c98.chunk.css.map": "/UlteraAdmin/static/css/2.c0f49c98.chunk.css.map",
+    "static/css/3.e4cb6236.chunk.css.map": "/UlteraAdmin/static/css/3.e4cb6236.chunk.css.map",
+    "static/js/2.3f2a33ed.chunk.js.LICENSE.txt": "/UlteraAdmin/static/js/2.3f2a33ed.chunk.js.LICENSE.txt",
+    "static/js/4.e077f005.chunk.js.LICENSE.txt": "/UlteraAdmin/static/js/4.e077f005.chunk.js.LICENSE.txt",
+    "static/media/CommonActEnabledIcons.590c6452.png": "/UlteraAdmin/static/media/CommonActEnabledIcons.590c6452.png",
+    "static/media/login.module.scss": "/UlteraAdmin/static/media/ExcellerateLogo.5c965846.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d52b3424.js",
+    "static/js/4.e077f005.chunk.js",
+    "static/js/main.0431fe26.chunk.js"
+  ]
+}
